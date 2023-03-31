@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8f3e2d2832ef4c10a9bd7926000bbe07" Name="Diagram1">
+        <EntityTypeShape EntityType="RK2023Model.Attestation" Width="1.5" PointX="5.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="RK2023Model.Criteria" Width="1.5" PointX="11.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RK2023Model.Discipline" Width="1.5" PointX="3" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RK2023Model.DisciplineTeachers" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RK2023Model.Group" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RK2023Model.Role" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RK2023Model.Speciality" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RK2023Model.StatusStudent" Width="1.5" PointX="6" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="RK2023Model.StatusTeacher" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RK2023Model.Student" Width="1.5" PointX="8.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="RK2023Model.StudentResult" Width="1.5" PointX="13.5" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RK2023Model.sysdiagrams" Width="1.5" PointX="7.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RK2023Model.SystemUser" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RK2023Model.Teachers" Width="1.5" PointX="3" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RK2023Model.TypeAttestation" Width="1.5" PointX="3" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="RK2023Model.Vedomosti" Width="1.5" PointX="10.5" PointY="7.5" IsExpanded="true" />
+        <AssociationConnector Association="RK2023Model.FK_Exam_Group" ManuallyRouted="false" />
+        <AssociationConnector Association="RK2023Model.FK_Exam_ProModule" ManuallyRouted="false" />
+        <AssociationConnector Association="RK2023Model.FK_Exam_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="RK2023Model.FK_Exam_TypeCertification" ManuallyRouted="false" />
+        <AssociationConnector Association="RK2023Model.FK_Vedomosti_Exam" ManuallyRouted="false" />
+        <AssociationConnector Association="RK2023Model.FK_Criteria_ProModule" ManuallyRouted="false" />
+        <AssociationConnector Association="RK2023Model.FK_StudentResult_Criteria" ManuallyRouted="false" />
+        <AssociationConnector Association="RK2023Model.FK_DisciplineTeachers_Discipline" ManuallyRouted="false" />
+        <AssociationConnector Association="RK2023Model.FK_DisciplineTeachers_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="RK2023Model.FK_Group_Speciality" ManuallyRouted="false" />
+        <AssociationConnector Association="RK2023Model.FK_Student_Group" ManuallyRouted="false" />
+        <AssociationConnector Association="RK2023Model.FK_Teachers_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="RK2023Model.FK_Teachers_Speciality" ManuallyRouted="false" />
+        <AssociationConnector Association="RK2023Model.FK_Student_StatusStudent" ManuallyRouted="false" />
+        <AssociationConnector Association="RK2023Model.FK_Teachers_StatusTeacher1" ManuallyRouted="false" />
+        <AssociationConnector Association="RK2023Model.FK_StudentResult_Student" ManuallyRouted="false" />
+        <AssociationConnector Association="RK2023Model.FK_Vedomosti_Student" ManuallyRouted="false" />
+        <AssociationConnector Association="RK2023Model.FK_SystemUser_Teachers1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
